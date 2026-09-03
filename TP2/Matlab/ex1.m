@@ -1,8 +1,8 @@
 clear all;
 close all;
-% h=[0 1/6 0 ; 1/6 1/3 1/6 ; 0 1/6 0 ];
+ h=[0 1/6 0 ; 1/6 1/3 1/6 ; 0 1/6 0 ];
 %  h = fspecial('disk');                %% LOW pass 
- h = fspecial('unsharp');              %% Hi pass
+% h = fspecial('unsharp');              %% Hi pass
 
 freqz2(h);
 
