@@ -14,5 +14,3 @@ h1=imfilter(b,h);    %make conv with the filter ==>
 
 figure
 imshow(h1);
-
-
